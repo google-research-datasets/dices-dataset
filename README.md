@@ -13,7 +13,7 @@ This repository contains two datasets with multi-turn adversarial conversations 
 - **Dataset 350:** `350/diverse_safety_adversarial_dialog_350.csv`, contains 350 conversations rated by a diverse rater pool of 123 unique raters. Each conversation is rated with five safety top-level categories and one overall comprehension question of the conversation. Raters were recruited were balanced by gender (man or woman), race/ethnicity (White, Black, Latine, Asian, Multiracial) and each rater rated all items.  Each rater rated all conversations. Each conversation has 123 unique ratings. Total number of rows in this dataset is 43050.
 
 ```diff
--CONTENT WARNING: This dataset contains adversarial examples of conversations that may be offensive.
+- CONTENT WARNING: This dataset contains adversarial examples of conversations that may be offensive.
 ```
 
 Each directory contains the dataset csv file and a README.md file describing the schema for the corresponding dataset.
