@@ -4,6 +4,9 @@ This dataset is part of the DICES dataset and consists of multi-turn adversarial
 
 **NB:** _the results presented in the papers typically deal with 104 unique raters in the rater pool (after applying our rater quality criteria). However, in the released data we provide all ratings from all 123 raters in case other researchers want to apply a different strategy for quality of raters. _
 
+```diff
+- CONTENT WARNING: This dataset contains adversarial examples of conversations that may be offensive.
+```
 
 ## Overview of annotation fields ## 
 - **Field 1** is an id unique to each (rater, conversation) pair
