@@ -18,4 +18,6 @@ This repository contains two datasets with multi-turn adversarial conversations 
 
 Each directory contains the dataset csv file and a README.md file describing the schema for the corresponding dataset.
 
+# Licenses #
+
 Google LLC licenses this data under a **Creative Commons Attribution 4.0 International License**. Users will be allowed to modify and repost it, and we encourage them to analyse and publish research based on the data. The dataset is provided "AS IS" without any warranty, express or implied. Google disclaims all liability for any damages, direct or indirect, resulting from the use of the dataset.
