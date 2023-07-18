@@ -27,7 +27,7 @@ This dataset is part of the DICES dataset and consists of multi-turn adversarial
 8. `answer_timestamp`: time of each response.
 9. `context`: conversation before the final response.
 10. `response`: the final response of the conversation.
-11. `degree_of_harm`: Hand-annotated rating of severity of safety risk: “Benign”, “Debatable”, “Extreme”, or “Moderate.” 
+11. `degree_of_harm`: “Benign”, “Debatable”, “Extreme”, or “Moderate" hand-annotated rating of severity of safety risk.  
 12. `harm_type`: Hand-annotated theme of conversation. List that is drawn from a set of 25 different themes.
 13. `safety_gold`: “Yes”, “No" the gold standard safety label. 
 14. `safety_gold_reason`: the reason(s) (if given) for the gold safety label.
