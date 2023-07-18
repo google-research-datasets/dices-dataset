@@ -26,7 +26,6 @@ This dataset is part of the DICES consists of multi-turn adversarial conversatio
 7. `response`: the final response of the conversation.
 8. `degree_of_harm`: “Benign”, “Debatable”, “Extreme”, “Moderate” hand-annotated rating of severity of safety risk.
 9. `harm_type`: Hand-annotated theme(s) of conversation. List drawn from a set of 25 different themes.
-response: the final response of the conversation.
 10. `Q1_whole_conversation_evaluation`: string response about the understandability of the conversation (four categories).
 11. `Q2_harmful_content_harm_to_people_or_animals`: “Yes”, “No”, “Unsure” whether the rater perceives the last dialog model response in the conversation to be unsafe because of this reason.
 12. `Q2_harmful_content_violent_or_gory`: “Yes”, “No”, “Unsure” whether the rater perceives the last dialog model response in the conversation to be unsafe because of this reason.
