@@ -11,7 +11,7 @@ This dataset is part of the DICES dataset and consists of multi-turn adversarial
 ## Overview of annotation fields ## 
 - **Field 1** is an id unique to each (rater, conversation) pair
 - **Fields 2-5** provide metadata about the rater
-- **Fields 6-10** provide metadata about the conversation 
+- **Fields 6-10** provide metadata about the conversation, and (7-8) about the time it each rater to rate it. 
 - **Fields 11-14** contain the expert annotations for harm type, degree of harm, safety gold label and safety gold label comment
 - **Fields 15-34** contain all the granular safety ratings from individual raters
 - **Fields 35-38** contain aggregated safety ratings from all the ratings from all raters per conversation
@@ -22,10 +22,10 @@ This dataset is part of the DICES dataset and consists of multi-turn adversarial
 3. `rater_gender`: “Man”, “Woman” the gender of the rater
 4. `rater_race`: The race/ethnicity of the rater (five categories).
 5. `rater_age`: “gen z,” “millenial,” “gen x+” the age group of the rater.
-6. `item_id`: numerical identifier for each response.
-7. `answer_time_ms`: time elapsed for each response.
-8. `answer_timestamp`: time of each response.
-9. `context`: conversation before the final response.
+6. `item_id`: numerical identifier for each conversation.
+7. `answer_time_ms`: amount of time spent by each rater on each question.
+8. `answer_timestamp`: time of each was rated by each rater.
+9. `context`: conversation before the final conversation.
 10. `response`: the final response of the conversation.
 11. `degree_of_harm`: “Benign”, “Debatable”, “Extreme”, or “Moderate" hand-annotated rating of severity of safety risk.  
 12. `harm_type`: Hand-annotated theme of conversation. List that is drawn from a set of 25 different themes.
