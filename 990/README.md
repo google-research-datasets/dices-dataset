@@ -17,7 +17,7 @@ This dataset is part of the DICES consists of multi-turn adversarial conversatio
 - **Fields 35-38** contain aggregated safety ratings from all the ratings from all raters per conversation
 
 ## Dataset Schema ##
-1. `id`: numerical identifier for each row, representing all responses to a single conversation by a single rater.
+1. `id`: numerical identifier for each row, representing all ratings to a single conversation by a single rater.
 2. `rater_id`: numerical identifier for each rater.
 3. `rater_gender`: “Man”, “Woman” the gender of the rater.
 4. `rater_locale`: “US”, “India” The locale of the rater.
