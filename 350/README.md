@@ -17,7 +17,7 @@ This dataset is part of the DICES dataset and consists of multi-turn adversarial
 - **Fields 35-38** contain aggregated safety ratings from all the ratings from all raters per conversation
 
 ## Dataset Schema ##
-1. `id`: numerical identifier for each row, representing all responses to a single conversation by a single rater.
+1. `id`: numerical identifier for each row, representing all ratings to a single conversation by a single rater.
 2. `rater_id`: numerical identifier for each rater.
 3. `rater_gender`: “Man”, “Woman” the gender of the rater
 4. `rater_race`: The race/ethnicity of the rater (five categories).
@@ -25,7 +25,7 @@ This dataset is part of the DICES dataset and consists of multi-turn adversarial
 6. `item_id`: numerical identifier for each conversation.
 7. `answer_time_ms`: amount of time spent by each rater on each question.
 8. `answer_timestamp`: time of each was rated by each rater.
-9. `context`: conversation before the final conversation.
+9. `context`: conversation before the final response.
 10. `response`: the final response of the conversation.
 11. `degree_of_harm`: “Benign”, “Debatable”, “Extreme”, or “Moderate" hand-annotated rating of severity of safety risk.  
 12. `harm_type`: Hand-annotated theme of conversation. List that is drawn from a set of 25 different themes.
