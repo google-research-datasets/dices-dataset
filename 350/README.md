@@ -4,8 +4,32 @@ This dataset is part of the DICES dataset and consists of multi-turn adversarial
 
 **NB:** the results presented in the papers typically deal with 104 unique raters in the rater pool (after applying our rater quality criteria). However, in the released data we provide all ratings from all 123 raters in case other researchers want to apply a different strategy for quality of raters.
 
-```diff
+```diff 
 - CONTENT WARNING: This dataset contains adversarial examples of conversations that may be offensive.
+```
+
+Each row of the dataset represents the collection of ratings by one rater on one conversation, or (rater, conversation) pair. The field rater_id indicates the rater and the field item_id indicates the conversation (see description of all fields below). 
+Here are a few useful python recipes for viewing the data. 
+
+Load the data into pandas
+```
+import pandas as pd
+df = pd.read_csv("diverse_safety_adversarial_dialog_350.csv")
+```
+
+View all ratings associated with one conversation.
+```
+df[df.item_id == 193]
+```
+
+List all unique conversations.
+```
+df.drop_duplicates(subset="item_id")
+```
+
+List all unique raters.
+```
+df.drop_duplicates(subset="rater_id")
 ```
 
 ## Overview of annotation fields ## 
