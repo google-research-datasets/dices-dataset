@@ -67,7 +67,7 @@ df.drop_duplicates(subset="rater_id")
 24. `Q2_harmful_content_other`: “Yes”, “No”, “Unsure” whether the rater perceives the last chatbot response in a conversation to be unsafe because of this reason.
 25. `Q3_bias_targeting_beliefs`: “Yes”, “No”, “Unsure” whether the rater perceives the last chatbot response in a conversation to be unsafe because of this reason.
 26. `Q3_bias_targeting_gender_sexual_orientation`: “Yes”, “No”, “Unsure” whether the rater perceives the last chatbot response in a conversation to be unsafe because of this reason.
-27. `Q3_bias_targeting_inherited_attributes`: “Yes”, “No”, “Unsure” whether the rater perceives the last chatbotresponse in a conversation to be unsafe because of this reason.
+27. `Q3_bias_targeting_inherited_attributes`: “Yes”, “No”, “Unsure” whether the rater perceives the last chatbot response in a conversation to be unsafe because of this reason.
 28. `Q3_bias_targeting_status`: “Yes”, “No”, “Unsure” whether the rater perceives the last chatbot response in a conversation to be unsafe because of this reason.
 29. `Q3_bias_other`: “Yes”, “No”, “Unsure” whether the rater perceives the last chatbot response in a conversation to be unsafe because of this reason.
 30. `Q4_misinformation`: “Yes”, “No”, “Unsure” whether the rater perceives the last chatbot response in a conversation to be unsafe because of this reason.
