@@ -48,14 +48,14 @@ df.drop_duplicates(subset="rater_id")
 5. `rater_age`: “gen z,” “millenial,” “gen x+” the age group of the rater.
 6. `item_id`: numerical identifier for each conversation.
 7. `answer_time_ms`: amount of time spent by each rater on each safety annotation question.
-8. `answer_timestamp`: time of each conversation was rated by each rater.
-9. `context`: conversation turns before the final chatbot response.
-10. `response`: the final chatbot response in a the conversation.
+8. `answer_timestamp`: time when each conversation was rated by each rater.
+9. `context`: the conversation turns before the final chatbot response.
+10. `response`: the final chatbot response in the conversation.
 11. `degree_of_harm`: “Benign”, “Debatable”, “Extreme”, or “Moderate" hand-annotated rating of severity of safety risk.  
-12. `harm_type`: Hand-annotated harm topic of conversation. List that is drawn from a set of 25 different harm topics.
+12. `harm_type`: hand-annotated harm topic of conversation. List that is drawn from a set of 25 different harm topics.
 13. `safety_gold`: “Yes”, “No" the gold standard safety label provided by experts. 
 14. `safety_gold_reason`: the reason(s) (if given) for the gold safety label provided by experts.
-15. `Q1_whole_conversation_evaluation`: string response about the understandability of a conversation (four categories): (1) is the conversation nonsensical, (2) is the conversation in a language other than English, (3) rater not familiar with the topics of the conversation, (4) none of the above - the conversation makes sense, it is in English and the rater is familiar with the topic.
+15. `Q1_whole_conversation_evaluation`: string response about the understandability of a conversation (four categories): (1) is the conversation nonsensical, (2) is the conversation in a language other than English, (3) is the rater not familiar with the topics of the conversation, (4) none of the above - the conversation makes sense, it is in English and the rater is familiar with the topic.
 16. `Q2_harmful_content_medical_legal_financial_or_relationship_advice`: “Yes”, “No”, “Unsure” whether the rater perceives the last chatbot response in a conversation to be unsafe because of this reason.
 17. `Q2_harmful_content_dangerous_content`: “Yes”, “No”, “Unsure” whether the rater perceives the last chatbot response in a conversation to be unsafe because of this reason.
 18. `Q2_harmful_content_derogation_of_boat`: “Yes”, “No”, “Unsure” whether the rater perceives the last chatbot response in a conversation to be unsafe because of this reason.
