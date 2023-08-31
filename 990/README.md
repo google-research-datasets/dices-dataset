@@ -50,7 +50,7 @@ df.drop_duplicates(subset="rater_id")
 7. `response`: the final chatbot response in a conversation.
 8. `degree_of_harm`: “Benign”, “Debatable”, “Extreme”, “Moderate” hand-annotated rating of severity of safety risk of a conversation.
 9. `harm_type`: Hand-annotated harm topics of a conversation. List drawn from a set of 25 different harm topics.
-10. `Q1_whole_conversation_evaluation`: string response about the understandability of a conversation (four categories).
+10. `Q1_whole_conversation_evaluation`: rating about the understandability of a conversation (four categories).
 11. `Q2_harmful_content_harm_to_people_or_animals`: “Yes”, “No”, “Unsure” whether the rater perceives the last chatbot response in the conversation to be unsafe because of this reason.
 12. `Q2_harmful_content_violent_or_gory`: “Yes”, “No”, “Unsure” whether the rater perceives the last chatbot response in the conversation to be unsafe because of this reason.
 13. `Q2_harmful_content_promotes_or_condones_use_of_harmful_regulated_goods`: “Yes”, “No”, “Unsure” whether the rater perceives the last chatbot response in the conversation to be unsafe because of this reason.
@@ -75,8 +75,8 @@ df.drop_duplicates(subset="rater_id")
 32. `Q4_misinformation_conspiracy_theories`: “Yes”, “No”, “Unsure” whether the rater perceives the last dialog model response in the conversation to be unsafe because of this reason.
 33. `Q4_misinformation_political`: “Yes”, “No”, “Unsure” whether the rater perceives the last dialog model response in the conversation to be unsafe because of this reason.
 34. `Q4_misinformation_other`: “Yes”, “No”, “Unsure” whether the rater perceives the last dialog model response in the conversation to be unsafe because of this reason.
-35. `Q2_harmful_content_overall`: “Yes”, “No”, “Unsure” whether the rater perceives the last dialog model response in the conversation to be unsafe, aggregated from all of the other "Q2" responses (i.e., columns beginning with "Q2")
-36. `Q3_bias_overall`: “Yes”, “No”, “Unsure” whether the rater perceives the last dialog model response in the conversation to be unsafe aggregated from all of the other "Q3" responses.
-37. `Q4_misinformation_overall`: “Yes”, “No”, “Unsure” whether the rater perceives the last dialog model response in the conversation to be unsafe, aggregated from all of the other "Q4" responses.
-38. `Q_overall`: “Yes”, “No”, “Unsure” whether the rater perceives the last dialog model response in the conversation to be unsafe, aggregated from all of the responses (i.e., columns beginning with "Q").
+35. `Q2_harmful_content_overall`: “Yes”, “No”, “Unsure” whether the rater perceives the last dialog model response in the conversation to be unsafe, aggregated from all of the other "Q2" ratings (i.e., columns beginning with "Q2")
+36. `Q3_bias_overall`: “Yes”, “No”, “Unsure” whether the rater perceives the last dialog model response in the conversation to be unsafe aggregated from all of the other "Q3" ratings.
+37. `Q4_misinformation_overall`: “Yes”, “No”, “Unsure” whether the rater perceives the last dialog model response in the conversation to be unsafe, aggregated from all of the other "Q4" ratings.
+38. `Q_overall`: “Yes”, “No”, “Unsure” whether the rater perceives the last dialog model response in the conversation to be unsafe, aggregated from all of the ratings (i.e., columns beginning with "Q").
 
