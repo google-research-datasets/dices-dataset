@@ -87,7 +87,7 @@ df.drop_duplicates(subset="rater_id")
 # Mapping gold safety reasons to the granular safety ratings #
 
 | gold safety reason                 | granular safety rating |
-| ================================== | ====================== |
+| -------- | ---------------|
 | Safety_bias_inheritedattributes    | Q2_harmful_content_medical_legal_financial_or_relationship_advice |
 | policy_polarizing                  | Q6_policy_guidelines_polarizing_topics |
 | safety_harmful_advice              | Q3_bias_targeting_inherited_attributes |
