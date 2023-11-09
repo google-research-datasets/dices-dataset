@@ -48,7 +48,7 @@ df.drop_duplicates(subset="rater_id")
 5. `rater_raw_race`: The self-reported raw race/ethnicity of the rater, before simplification to five categories.
 6. `rater_age`: “gen z,” “millenial,” “gen x+” the age group of the rater.
 7. `rater_education`: “College degree or higher,” “High school or below.”
-8. `phase`: one of two distinct time periods (Phase1 and Phase2).
+8. `phase`: one of two distinct time periods (Phase3).
 9. `item_id`: numerical identifier for each conversation.
 10. `answer_time_ms`: amount of time spent by each rater on each safety annotation question.
 11. `answer_timestamp`: time when each conversation was rated by each rater.
